@@ -74,7 +74,6 @@ int main()
     {
     case 1:
     {
-        // Vadeli hesap nesnesi oluşturuluyor
         vadelihesap vh(hesapno, bakiye, faiz_orani);
         int ay;
         cout << "Kac ay vadeli hesap acmak istiyo123rsunuz? ";
@@ -132,4 +131,5 @@ int main()
     }
     
     return 0;
+
 }
