@@ -36,7 +36,7 @@ public:
 
     void paraCek(int miktar) override {
         if (miktar <= bakiye) {
-            bakiye -= (miktar + 50); // 50 TL ceza kesildi
+            bakiye -= (miktar + 50); 
             cout << "Vadeli hesaptan islem yapildi (Ceza uygulandi)." << endl;
         }
     }
@@ -58,3 +58,4 @@ int main() {
     return 0;
 
 }
+
